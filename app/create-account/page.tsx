@@ -1,10 +1,10 @@
 import React from 'react';
-import { LoginForm } from './LoginForm';
+import { CreateAccountForm } from './CreateAccountForm';
 
 const LoginPage = () => {
     return (
         <div className="flex items-center justify-center h-minus-135">
-            <LoginForm />
+            <CreateAccountForm />
         </div>
     );
 };
